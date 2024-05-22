@@ -37,7 +37,19 @@ const teamMembers = [
 
 // ! Mostra i dati in console ---------------------------------------------------------
 // Stampa su console le informazioni di ogni membro
-teamMembers.forEach(member => {
+teamMembers.forEach(member => {     /* "ForEach" legge in ordine tutti gli elementi dentro la nostra array */
     console.log(`Name: ${member.name}, Role: ${member.role}, Photo: ${member.photo}`);
 });
 // ! Fine controllo in console --------------------------------------------------------
+
+
+
+
+
+// ? sezione per interagire con il DOM --------------------------------------------------
+
+// selezioniamo il container del DOM con ID "team-container"
+const teamContainer = document.getElementById('team-container');
+
+
+// todo - Stampare ogni membro del team nel DOM
