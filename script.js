@@ -36,10 +36,21 @@ const teamMembers = [
 
 
 // ! Mostra i dati in console ---------------------------------------------------------
+
+//# Opzione n.1 (more simple)
+for (let i = 0; i < teamMembers.length; i++){
+    console.log(teamMembers[i]); 
+}
+
+
+
+
+//# Opzione n.2
 // Stampa su console le informazioni di ogni membro
-teamMembers.forEach(member => {     /* "ForEach" legge in ordine tutti gli elementi dentro la nostra array */
-    console.log(`Name: ${member.name}, Role: ${member.role}, Photo: ${member.photo}`);
-});
+// teamMembers.forEach(member => {     /* "ForEach" legge in ordine tutti gli elementi dentro la nostra array */
+//     console.log(`Name: ${member.name}, Role: ${member.role}, Photo: ${member.photo}`);
+// });
+
 // ! Fine controllo in console --------------------------------------------------------
 
 
