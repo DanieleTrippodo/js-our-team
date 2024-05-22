@@ -32,3 +32,12 @@ const teamMembers = [
     }
 ];
 
+
+
+
+// ! Mostra i dati in console ---------------------------------------------------------
+// Stampa su console le informazioni di ogni membro
+teamMembers.forEach(member => {
+    console.log(`Name: ${member.name}, Role: ${member.role}, Photo: ${member.photo}`);
+});
+// ! Fine controllo in console --------------------------------------------------------
